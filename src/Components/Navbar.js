@@ -14,7 +14,7 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-      <h3 className="navbar__logo">My App</h3>
+      <h3 className="navbar__logo">UniGhana</h3>
       <ul className="navbar__list">
         {currentUser ? (
           <>

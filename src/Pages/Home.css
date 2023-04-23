@@ -1,0 +1,15 @@
+.school-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 5rem;
+  min-height: 100vh;
+  margin-bottom: 5rem;
+}
+
+.school-list h1 {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
