@@ -1,5 +1,4 @@
-// list of universities and their relevant information
-export default schools = [
+const schoolsData = [
   {
     "name": "University of Ghana",
     "faculties": [
@@ -20,7 +19,7 @@ export default schools = [
         ]
       }
     ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/University_of_Ghana_coat_of_arms.png/220px-University_of_Ghana_coat_of_arms.png",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/UoG_CoA_2017.svg/1200px-UoG_CoA_2017.svg.png",
     "year_established": 1948
   },
   {
@@ -43,7 +42,7 @@ export default schools = [
         ]
       }
     ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Kwame_Nkrumah_University_of_Science_and_Technology_coat_of_arms.png",
+    "image": "https://upload.wikimedia.org/wikipedia/en/b/b4/Knust_seal.jpg?20091029170028",
     "year_established": 1952
   },
   {
@@ -66,7 +65,9 @@ export default schools = [
         ]
       }
     ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/University_of_Cape_Coast_seal.png/200px-University_of_Cape_Coast_seal.png",
+    "image": "https://admitafrique.com/wp-content/uploads/2021/06/https___cdn.evbuc_.com_images_31497965_188665833471_1_original.png",
     "year_established": 1962
   }
-];
+]
+
+export default schoolsData;

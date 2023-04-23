@@ -20,7 +20,7 @@
   border-radius: 5px;
   border: 1px solid #ccc;
   margin-bottom: 20px;
-  width: 100%;
+  max-width: 100%;
 }
 
 .login__button {

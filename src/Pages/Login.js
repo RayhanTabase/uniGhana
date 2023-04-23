@@ -37,19 +37,21 @@ function Login() {
   }
 
   return (
-    <div className="login">
-      <div>
-        <label className="login__label">Username:</label>
-        <input className="login__input" type="text" value={username} onChange={(e) => setUsername(e.target.value)} />
+    <div className="container-center">
+      <div className="login">
+        <div>
+          <label className="login__label">Username:</label><br/>
+          <input className="login__input" type="text" value={username} onChange={(e) => setUsername(e.target.value)} />
+        </div>
+        <div>
+          <label className="login__label">Password:</label><br/>
+          <input className="login__input" type="password" value={password} onChange={(e) => setPassword(e.target.value)} />
+        </div>
+        <button className="login__button" onClick={handleLogin}>Login</button>
+        <NavLink className="login__link" to="/register">
+          Register
+        </NavLink>
       </div>
-      <div>
-        <label className="login__label">Password:</label>
-        <input className="login__input" type="password" value={password} onChange={(e) => setPassword(e.target.value)} />
-      </div>
-      <button className="login__button" onClick={handleLogin}>Login</button>
-      <NavLink className="login__link" to="/register">
-        Register
-      </NavLink>
     </div>
   );
 }
