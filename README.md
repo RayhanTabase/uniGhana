@@ -3,7 +3,7 @@ In the next stage, you will be required to build a website landing page with all
 
 
 ## Live Version
-[Go Live](https://festive-shirley-0ca9cb.netlify.app/)
+[Go Live](https://6445084302cc4a00083cdda5--bright-pixie-9fc212.netlify.app/)
 
 ## Built With
 - React
