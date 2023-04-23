@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate, NavLink } from 'react-router-dom';
+import { toast } from 'react-toastify';
 import { addUser } from '../Redux/reducers/users';
 import './Register.css';
 
@@ -50,6 +51,7 @@ function Register() {
     }
 
     dispatch(addUser({ username, password }));
+    toast.success('User created successfully!');
     navigate('/login');
   };
 
