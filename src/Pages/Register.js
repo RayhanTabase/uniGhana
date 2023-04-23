@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { NavLink } from 'react-router-dom';
+import { useNavigate, NavLink } from 'react-router-dom';
 import { addUser } from '../Redux/reducers/users';
 import './Register.css';
 
@@ -49,6 +49,7 @@ function Register() {
     }
 
     dispatch(addUser({ username, password }));
+    navigate('/login');
   };
 
   return (
