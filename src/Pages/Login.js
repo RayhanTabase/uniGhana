@@ -33,7 +33,6 @@ function Login() {
     dispatch(loginUser(username));
     toast.success('Logged in successfully!');
     navigate('/');
-    // Redirect to home page
   }
 
   return (
