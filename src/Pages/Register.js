@@ -6,6 +6,7 @@ import './Register.css';
 
 function Register() {
   const dispatch = useDispatch();
+  const navigate = useNavigate();
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
